@@ -1,4 +1,4 @@
-unit ModelTestCase;
+unit QuizTestCase;
 
 {$mode objfpc}{$H+}
 
@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, fpcunit, testutils, testregistry,
-  Model;
+  Quiz;
 
 type
 
