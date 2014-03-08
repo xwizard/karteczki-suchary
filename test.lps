@@ -4,26 +4,28 @@
     <PathDelim Value="\"/>
     <Version Value="9"/>
     <BuildModes Active="Default"/>
-    <Units Count="7">
+    <Units Count="9">
       <Unit0>
         <Filename Value="test.lpr"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="test"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="3"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
-        <CursorPos X="37" Y="13"/>
-        <UsageCount Value="161"/>
+        <CursorPos X="56" Y="6"/>
+        <UsageCount Value="162"/>
+        <Loaded Value="True"/>
       </Unit0>
       <Unit1>
         <Filename Value="quiztestcase.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="QuizTestCase"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
-        <CursorPos X="13" Y="1"/>
-        <UsageCount Value="161"/>
+        <CursorPos X="3" Y="10"/>
+        <UsageCount Value="162"/>
         <Loaded Value="True"/>
       </Unit1>
       <Unit2>
@@ -32,8 +34,8 @@
         <EditorIndex Value="0"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
-        <CursorPos X="11" Y="7"/>
-        <UsageCount Value="78"/>
+        <CursorPos X="13" Y="8"/>
+        <UsageCount Value="79"/>
         <Loaded Value="True"/>
       </Unit2>
       <Unit3>
@@ -68,10 +70,41 @@
         <CursorPos X="3" Y="40"/>
         <UsageCount Value="10"/>
       </Unit6>
+      <Unit7>
+        <Filename Value="model.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Model"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="19" Y="13"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="box.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Box"/>
+        <EditorIndex Value="4"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="5" Y="13"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit8>
     </Units>
     <General>
       <ActiveWindowIndexAtStart Value="0"/>
     </General>
-    <JumpHistory Count="0" HistoryIndex="-1"/>
+    <JumpHistory Count="2" HistoryIndex="1">
+      <Position1>
+        <Filename Value="model.pas"/>
+        <Caret Line="11" Column="16" TopLine="1"/>
+      </Position1>
+      <Position2>
+        <Filename Value="test.lpr"/>
+        <Caret Line="13" Column="37" TopLine="1"/>
+      </Position2>
+    </JumpHistory>
   </ProjectSession>
 </CONFIG>
