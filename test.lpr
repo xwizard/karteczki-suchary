@@ -10,6 +10,7 @@ uses
 begin
   Application.Initialize;
   Application.CreateForm(TGuiTestRunner, TestRunner);
+  Application.MainForm.Height := 450;
   Application.Run;
 end.
 

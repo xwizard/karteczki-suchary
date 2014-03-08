@@ -4,7 +4,7 @@
     <PathDelim Value="\"/>
     <Version Value="9"/>
     <BuildModes Active="Default"/>
-    <Units Count="5">
+    <Units Count="7">
       <Unit0>
         <Filename Value="test.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -13,8 +13,8 @@
         <EditorIndex Value="2"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
-        <CursorPos X="42" Y="6"/>
-        <UsageCount Value="160"/>
+        <CursorPos X="37" Y="13"/>
+        <UsageCount Value="161"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
@@ -24,7 +24,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="7"/>
         <CursorPos X="102" Y="38"/>
-        <UsageCount Value="160"/>
+        <UsageCount Value="161"/>
       </Unit1>
       <Unit2>
         <Filename Value="quiz.pas"/>
@@ -49,20 +49,48 @@
         <UnitName Value="ModelTestCase"/>
         <EditorIndex Value="1"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="5"/>
+        <TopLine Value="1"/>
         <CursorPos X="8" Y="9"/>
         <UsageCount Value="12"/>
         <Loaded Value="True"/>
       </Unit4>
+      <Unit5>
+        <Filename Value="C:\lazarus\lcl\forms.pp"/>
+        <UnitName Value="Forms"/>
+        <EditorIndex Value="4"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1390"/>
+        <CursorPos X="15" Y="1368"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="C:\lazarus\components\fpcunit\guitestrunner.pas"/>
+        <UnitName Value="GuiTestRunner"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="31"/>
+        <CursorPos X="3" Y="40"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit6>
     </Units>
     <General>
       <ActiveWindowIndexAtStart Value="0"/>
     </General>
-    <JumpHistory Count="1" HistoryIndex="0">
+    <JumpHistory Count="3" HistoryIndex="2">
       <Position1>
         <Filename Value="test.lpr"/>
         <Caret Line="1" Column="1" TopLine="1"/>
       </Position1>
+      <Position2>
+        <Filename Value="test.lpr"/>
+        <Caret Line="13" Column="14" TopLine="1"/>
+      </Position2>
+      <Position3>
+        <Filename Value="test.lpr"/>
+        <Caret Line="12" Column="32" TopLine="1"/>
+      </Position3>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>
