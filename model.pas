@@ -1,4 +1,4 @@
-unit Quiz;
+unit Model;
 
 {$mode objfpc}{$H+}
 

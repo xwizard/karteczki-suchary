@@ -4,64 +4,65 @@
     <PathDelim Value="\"/>
     <Version Value="9"/>
     <BuildModes Active="Default"/>
-    <Units Count="3">
+    <Units Count="5">
       <Unit0>
         <Filename Value="test.lpr"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="test"/>
-        <UsageCount Value="156"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="42" Y="6"/>
+        <UsageCount Value="160"/>
+        <Loaded Value="True"/>
       </Unit0>
       <Unit1>
         <Filename Value="quiztestcase.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="QuizTestCase"/>
-        <EditorIndex Value="0"/>
         <WindowIndex Value="0"/>
         <TopLine Value="7"/>
         <CursorPos X="102" Y="38"/>
-        <UsageCount Value="156"/>
-        <Loaded Value="True"/>
+        <UsageCount Value="160"/>
       </Unit1>
       <Unit2>
         <Filename Value="quiz.pas"/>
         <UnitName Value="Quiz"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="1"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
-        <CursorPos X="27" Y="13"/>
+        <CursorPos X="24" Y="4"/>
         <UsageCount Value="78"/>
-        <Loaded Value="True"/>
       </Unit2>
+      <Unit3>
+        <Filename Value="model.pas"/>
+        <UnitName Value="Model"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="11" Y="1"/>
+        <UsageCount Value="12"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="modeltestcase.pas"/>
+        <UnitName Value="ModelTestCase"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="5"/>
+        <CursorPos X="8" Y="9"/>
+        <UsageCount Value="12"/>
+        <Loaded Value="True"/>
+      </Unit4>
     </Units>
     <General>
       <ActiveWindowIndexAtStart Value="0"/>
     </General>
-    <JumpHistory Count="6" HistoryIndex="5">
+    <JumpHistory Count="1" HistoryIndex="0">
       <Position1>
-        <Filename Value="quiztestcase.pas"/>
-        <Caret Line="15" Column="18" TopLine="3"/>
+        <Filename Value="test.lpr"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
       </Position1>
-      <Position2>
-        <Filename Value="quiztestcase.pas"/>
-        <Caret Line="32" Column="8" TopLine="1"/>
-      </Position2>
-      <Position3>
-        <Filename Value="quiz.pas"/>
-        <Caret Line="13" Column="20" TopLine="1"/>
-      </Position3>
-      <Position4>
-        <Filename Value="quiz.pas"/>
-        <Caret Line="20" Column="20" TopLine="1"/>
-      </Position4>
-      <Position5>
-        <Filename Value="quiz.pas"/>
-        <Caret Line="8" Column="3" TopLine="1"/>
-      </Position5>
-      <Position6>
-        <Filename Value="quiz.pas"/>
-        <Caret Line="13" Column="27" TopLine="1"/>
-      </Position6>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>
