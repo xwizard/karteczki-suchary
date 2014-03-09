@@ -10,19 +10,22 @@ uses
 type
 
   TBoxTest= class(TTestCase)
-  private
-    Box : TBox;
   published
-    procedure TestHookUp;
-    procedure SetUp; override;
-    procedure TearDown; override;
+    procedure AddCard;
   end;
 
 implementation
 
-procedure TBoxTest.TestHookUp;
+procedure TBoxTest.AddCard;
+var
+  Box : TBox;
 begin
+  Box := TBox.Create;
+  Box.AddToBox(1, TId.CreateFromString('ciach'));
 
+  AssertTrue(Box.Contains(1, TId.CreateFromString('ciach')));
+
+  Box.Free;
 end;
 
 initialization
