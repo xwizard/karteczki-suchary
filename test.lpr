@@ -3,7 +3,7 @@ program test;
 {$mode objfpc}{$H+}
 
 uses
-  Interfaces, Forms, GuiTestRunner, QuizTestCase, Model;
+  Interfaces, Forms, GuiTestRunner, Model, ModelTestCases;
 
 {$R *.res}
 

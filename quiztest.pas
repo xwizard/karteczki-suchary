@@ -1,4 +1,4 @@
-unit QuizTestCase;
+unit QuizTest;
 
 {$mode objfpc}{$H+}
 
@@ -10,7 +10,7 @@ uses
 
 type
 
-  TQuizTest= class(TTestCase)
+  TQuizTest = class(TTestCase)
   private
     Quiz: TQuiz;
   protected
@@ -24,7 +24,6 @@ implementation
 
 procedure TQuizTest.TestHookUp;
 begin
-  Fail('Write your own test');
 end;
 
 procedure TQuizTest.SetUp;
