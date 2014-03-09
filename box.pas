@@ -5,13 +5,13 @@ unit Box;
 interface
 
 uses
-  Classes, SysUtils, Id, contnrs;
+  Classes, SysUtils, Id, ExList;
 
 const
   BOXES : Integer = 5;
 
 type
-  TCardArray = Array[1..5] of TFPObjectList;
+  TCardArray = Array[1..5] of TExObjectList;
   TBox = class(TObject)
   public
     constructor Create;
@@ -32,7 +32,7 @@ var
 begin
   for i := 1 to BOXES do
   begin
-    Cards[i] := TFPObjectList.Create;
+    Cards[i] := TExObjectList.Create;
     Cards[i].OwnsObjects := True;
   end;
 end;
@@ -58,7 +58,7 @@ function TBox.Contains(BoxNumber : Integer; CardId : TId) : Boolean;
 var
   i : Integer;
 begin
-  Result := Cards[BoxNumber].IndexOf(CardId) > 0;
+  Result := Cards[BoxNumber].Contains(CardId);
 end;
 
 end.
