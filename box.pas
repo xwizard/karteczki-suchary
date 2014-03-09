@@ -9,11 +9,12 @@ uses
   fgl;
 
 type
-  TCardList = specialize TFPGList<TId>;
+  TCardList = specialize TFPGObjectList<TId>;
   TCardMap = specialize TFPGMap<Integer, TCardList>;
   TBox = class(TObject)
   public
     constructor Create;
+    destructor Destroy;
   private
     Id : TGuid;
     Cards : TCardMap;
@@ -24,6 +25,11 @@ implementation
 constructor TBox.Create;
 begin
   Cards := TCardMap.Create;
+end;
+
+destructor TBox.Destroy;
+begin
+  Cards.Free;
 end;
 
 end.

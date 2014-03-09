@@ -9,12 +9,10 @@
         <Filename Value="test.lpr"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="test"/>
-        <EditorIndex Value="2"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="15"/>
-        <UsageCount Value="181"/>
-        <Loaded Value="True"/>
+        <UsageCount Value="188"/>
       </Unit0>
       <Unit1>
         <Filename Value="quiztestcase.pas"/>
@@ -23,28 +21,27 @@
         <WindowIndex Value="0"/>
         <TopLine Value="11"/>
         <CursorPos X="12" Y="27"/>
-        <UsageCount Value="181"/>
+        <UsageCount Value="188"/>
       </Unit1>
       <Unit2>
         <Filename Value="model.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Model"/>
-        <EditorIndex Value="1"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="48" Y="3"/>
-        <UsageCount Value="39"/>
-        <Loaded Value="True"/>
+        <UsageCount Value="46"/>
       </Unit2>
       <Unit3>
         <Filename Value="box.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Box"/>
-        <EditorIndex Value="6"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="24" Y="8"/>
-        <UsageCount Value="39"/>
+        <TopLine Value="16"/>
+        <CursorPos X="36" Y="12"/>
+        <UsageCount Value="46"/>
         <Loaded Value="True"/>
       </Unit3>
       <Unit4>
@@ -54,27 +51,25 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="13" Y="1"/>
-        <UsageCount Value="38"/>
+        <UsageCount Value="45"/>
       </Unit4>
       <Unit5>
         <Filename Value="modeltestcases.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="ModelTestCases"/>
-        <EditorIndex Value="4"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="19" Y="9"/>
-        <UsageCount Value="38"/>
-        <Loaded Value="True"/>
+        <UsageCount Value="45"/>
       </Unit5>
       <Unit6>
         <Filename Value="quiz.pas"/>
         <UnitName Value="Quiz"/>
-        <EditorIndex Value="0"/>
+        <EditorIndex Value="4"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
-        <CursorPos X="13" Y="8"/>
-        <UsageCount Value="87"/>
+        <CursorPos X="27" Y="1"/>
+        <UsageCount Value="88"/>
         <Loaded Value="True"/>
       </Unit6>
       <Unit7>
@@ -83,7 +78,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="8" Y="9"/>
-        <UsageCount Value="11"/>
+        <UsageCount Value="10"/>
       </Unit7>
       <Unit8>
         <Filename Value="C:\lazarus\lcl\forms.pp"/>
@@ -91,7 +86,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1388"/>
         <CursorPos X="15" Y="1368"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="8"/>
       </Unit8>
       <Unit9>
         <Filename Value="C:\lazarus\components\fpcunit\guitestrunner.pas"/>
@@ -99,7 +94,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="273"/>
         <CursorPos X="1" Y="282"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit9>
       <Unit10>
         <Filename Value="boxtestcase.pas"/>
@@ -107,16 +102,16 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="1"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="8"/>
       </Unit10>
       <Unit11>
         <Filename Value="boxtest.pas"/>
         <UnitName Value="BoxTest"/>
-        <EditorIndex Value="3"/>
+        <EditorIndex Value="1"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="16"/>
-        <CursorPos X="9" Y="24"/>
-        <UsageCount Value="18"/>
+        <TopLine Value="12"/>
+        <CursorPos X="13" Y="12"/>
+        <UsageCount Value="22"/>
         <Loaded Value="True"/>
       </Unit11>
       <Unit12>
@@ -125,36 +120,35 @@
         <WindowIndex Value="0"/>
         <TopLine Value="282"/>
         <CursorPos X="3" Y="222"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="8"/>
       </Unit12>
       <Unit13>
         <Filename Value="C:\lazarus\fpc\2.6.2\source\rtl\inc\objpash.inc"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="189"/>
-        <CursorPos X="8" Y="187"/>
+        <TopLine Value="194"/>
+        <CursorPos X="21" Y="201"/>
         <UsageCount Value="10"/>
       </Unit13>
       <Unit14>
         <Filename Value="id.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Id"/>
-        <EditorIndex Value="7"/>
+        <EditorIndex Value="2"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="37"/>
+        <TopLine Value="23"/>
         <CursorPos X="12" Y="51"/>
-        <UsageCount Value="25"/>
+        <UsageCount Value="32"/>
         <Loaded Value="True"/>
       </Unit14>
       <Unit15>
         <Filename Value="idtest.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="IdTest"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="8"/>
+        <EditorIndex Value="3"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="31"/>
-        <CursorPos X="24" Y="46"/>
-        <UsageCount Value="25"/>
+        <TopLine Value="6"/>
+        <CursorPos X="28" Y="12"/>
+        <UsageCount Value="32"/>
         <Loaded Value="True"/>
       </Unit15>
       <Unit16>
@@ -162,7 +156,7 @@
         <UnitName Value="QuizTest"/>
         <EditorIndex Value="5"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="23"/>
+        <TopLine Value="25"/>
         <CursorPos X="64" Y="33"/>
         <UsageCount Value="11"/>
         <Loaded Value="True"/>
@@ -171,127 +165,23 @@
     <General>
       <ActiveWindowIndexAtStart Value="0"/>
     </General>
-    <JumpHistory Count="30" HistoryIndex="29">
+    <JumpHistory Count="4" HistoryIndex="3">
       <Position1>
-        <Filename Value="id.pas"/>
-        <Caret Line="34" Column="1" TopLine="19"/>
+        <Filename Value="box.pas"/>
+        <Caret Line="32" Column="17" TopLine="14"/>
       </Position1>
       <Position2>
-        <Filename Value="idtest.pas"/>
-        <Caret Line="32" Column="1" TopLine="22"/>
+        <Filename Value="box.pas"/>
+        <Caret Line="20" Column="5" TopLine="11"/>
       </Position2>
       <Position3>
-        <Filename Value="id.pas"/>
-        <Caret Line="30" Column="1" TopLine="19"/>
+        <Filename Value="box.pas"/>
+        <Caret Line="32" Column="13" TopLine="18"/>
       </Position3>
       <Position4>
-        <Filename Value="id.pas"/>
-        <Caret Line="32" Column="1" TopLine="19"/>
+        <Filename Value="boxtest.pas"/>
+        <Caret Line="36" Column="25" TopLine="15"/>
       </Position4>
-      <Position5>
-        <Filename Value="id.pas"/>
-        <Caret Line="28" Column="4" TopLine="22"/>
-      </Position5>
-      <Position6>
-        <Filename Value="id.pas"/>
-        <Caret Line="26" Column="45" TopLine="22"/>
-      </Position6>
-      <Position7>
-        <Filename Value="id.pas"/>
-        <Caret Line="30" Column="1" TopLine="22"/>
-      </Position7>
-      <Position8>
-        <Filename Value="id.pas"/>
-        <Caret Line="32" Column="1" TopLine="22"/>
-      </Position8>
-      <Position9>
-        <Filename Value="id.pas"/>
-        <Caret Line="33" Column="1" TopLine="22"/>
-      </Position9>
-      <Position10>
-        <Filename Value="id.pas"/>
-        <Caret Line="35" Column="1" TopLine="22"/>
-      </Position10>
-      <Position11>
-        <Filename Value="id.pas"/>
-        <Caret Line="26" Column="17" TopLine="21"/>
-      </Position11>
-      <Position12>
-        <Filename Value="id.pas"/>
-        <Caret Line="33" Column="1" TopLine="21"/>
-      </Position12>
-      <Position13>
-        <Filename Value="id.pas"/>
-        <Caret Line="36" Column="1" TopLine="21"/>
-      </Position13>
-      <Position14>
-        <Filename Value="idtest.pas"/>
-        <Caret Line="31" Column="1" TopLine="22"/>
-      </Position14>
-      <Position15>
-        <Filename Value="id.pas"/>
-        <Caret Line="33" Column="1" TopLine="21"/>
-      </Position15>
-      <Position16>
-        <Filename Value="id.pas"/>
-        <Caret Line="36" Column="1" TopLine="21"/>
-      </Position16>
-      <Position17>
-        <Filename Value="idtest.pas"/>
-        <Caret Line="32" Column="1" TopLine="22"/>
-      </Position17>
-      <Position18>
-        <Filename Value="id.pas"/>
-        <Caret Line="33" Column="1" TopLine="21"/>
-      </Position18>
-      <Position19>
-        <Filename Value="id.pas"/>
-        <Caret Line="36" Column="1" TopLine="21"/>
-      </Position19>
-      <Position20>
-        <Filename Value="idtest.pas"/>
-        <Caret Line="33" Column="1" TopLine="22"/>
-      </Position20>
-      <Position21>
-        <Filename Value="id.pas"/>
-        <Caret Line="33" Column="1" TopLine="21"/>
-      </Position21>
-      <Position22>
-        <Filename Value="id.pas"/>
-        <Caret Line="36" Column="1" TopLine="21"/>
-      </Position22>
-      <Position23>
-        <Filename Value="idtest.pas"/>
-        <Caret Line="35" Column="1" TopLine="22"/>
-      </Position23>
-      <Position24>
-        <Filename Value="idtest.pas"/>
-        <Caret Line="36" Column="1" TopLine="22"/>
-      </Position24>
-      <Position25>
-        <Filename Value="modeltestcases.pas"/>
-        <Caret Line="14" Column="28" TopLine="1"/>
-      </Position25>
-      <Position26>
-        <Filename Value="test.lpr"/>
-        <Caret Line="6" Column="58" TopLine="1"/>
-      </Position26>
-      <Position27>
-        <Filename Value="idtest.pas"/>
-        <Caret Line="27" Column="5" TopLine="20"/>
-      </Position27>
-      <Position28>
-        <Filename Value="id.pas"/>
-        <Caret Line="25" Column="17" TopLine="15"/>
-      </Position28>
-      <Position29>
-        <Filename Value="id.pas"/>
-        <Caret Line="51" Column="16" TopLine="36"/>
-      </Position29>
-      <Position30>
-        <Filename Value="id.pas"/>
-        <Caret Line="49" Column="34" TopLine="37"/>
-      </Position30>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>

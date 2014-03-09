@@ -15,18 +15,14 @@ type
   published
     procedure TestHookUp;
     procedure SetUp; override;
+    procedure TearDown; override;
   end;
 
 implementation
 
 procedure TBoxTest.TestHookUp;
 begin
-  //Box.
-end;
 
-procedure TBoxTest.SetUp;
-begin
-  Box := Box.Create;
 end;
 
 initialization

@@ -10,9 +10,6 @@ uses
 type
 
   TIdTest= class(TTestCase)
-  protected
-    procedure SetUp; override;
-    procedure TearDown; override;
   published
     procedure EqualsOk;
     procedure CreateOk;
@@ -33,9 +30,9 @@ begin
   AssertFalse(i3.Equals(I1));
   AssertFalse(i3.Equals(I2));
 
-  i1.Destroy;
-  i2.Destroy;
-  i3.Destroy;
+  i1.Free;
+  i2.Free;
+  i3.Free;
 end;
 
 procedure TIdTest.CreateOk;
@@ -63,18 +60,8 @@ begin
 
   for i := 1 to 1000 do
   begin
-    Ids[i].Destroy;
+    Ids[i].Free;
   end;
-end;
-
-procedure TIdTest.SetUp;
-begin
-
-end;
-
-procedure TIdTest.TearDown;
-begin
-
 end;
 
 initialization
