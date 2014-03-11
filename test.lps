@@ -36,11 +36,10 @@
         <Filename Value="box.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Box"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="0"/>
         <WindowIndex Value="0"/>
         <TopLine Value="47"/>
-        <CursorPos X="38" Y="61"/>
+        <CursorPos X="46" Y="61"/>
         <UsageCount Value="57"/>
         <Loaded Value="True"/>
       </Unit3>
@@ -129,10 +128,11 @@
       <Unit13>
         <Filename Value="boxtest.pas"/>
         <UnitName Value="BoxTest"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="9"/>
-        <CursorPos X="1" Y="26"/>
+        <TopLine Value="14"/>
+        <CursorPos X="33" Y="29"/>
         <UsageCount Value="28"/>
         <Loaded Value="True"/>
       </Unit13>
@@ -183,7 +183,7 @@
     <General>
       <ActiveWindowIndexAtStart Value="0"/>
     </General>
-    <JumpHistory Count="25" HistoryIndex="24">
+    <JumpHistory Count="26" HistoryIndex="25">
       <Position1>
         <Filename Value="box.pas"/>
         <Caret Line="34" Column="1" TopLine="22"/>
@@ -282,8 +282,12 @@
       </Position24>
       <Position25>
         <Filename Value="box.pas"/>
-        <Caret Line="61" Column="1" TopLine="47"/>
+        <Caret Line="61" Column="38" TopLine="47"/>
       </Position25>
+      <Position26>
+        <Filename Value="box.pas"/>
+        <Caret Line="35" Column="30" TopLine="26"/>
+      </Position26>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>
