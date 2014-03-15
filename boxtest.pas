@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, fpcunit, testutils, testregistry,
-  Box, Id;
+  Box, Id, Exceptions;
 type
 
   { TBoxTest }
@@ -17,6 +17,8 @@ type
   published
     procedure AddCard;
     procedure MoveCardFromSecondToFirst;
+    procedure MoveNonexistingCardToFirst;
+    procedure MoveNilCardToFirst;
   end;
 
 implementation
@@ -62,6 +64,36 @@ begin
 
   Box.Free;
   Id.Free;
+end;
+
+procedure TBoxTest.MoveNonexistingCardToFirst;
+var
+  Box : TBox;
+  Id : TId;
+begin
+  Box:=CreateStubBox;
+  Id:=TId.CreateFromString('dupa');
+
+  try
+    Box.MoveCardToFirst(Id);
+    Fail('Test should throw EInvalidState!');
+  except on EInvalidState do;
+  end;
+
+  Box.Free;
+  Id.Free;
+end;
+
+procedure TBoxTest.MoveNilCardToFirst;
+var
+  Box : TBox;
+begin
+  Box:=CreateStubBox;
+  try
+    Box.MoveCardToFirst(Nil);
+    Fail('Test should throw EInvalidArgument!');
+  except on EInvalidArgument do;
+  end;
 end;
 
 initialization

@@ -54,6 +54,7 @@ var
   AObject : TObject;
 begin
   BoxHolding:=GetBoxHolding(CardId);
+  if BoxHolding < 1 then raise EInvalidState.Create('No box is holding card ' + CardId.ToString);
   AObject:=Cards[BoxHolding].Get(CardId);
   if AObject = Nil then raise EInvalidState('Card with id ' + CardId.ToString + ' doesn''t exist in box!');
   IdOnList:=Cards[BoxHolding].Extract(AObject as TId) as TId;
@@ -76,6 +77,8 @@ function TBox.GetBoxHolding(Id : TId) : Integer;
 var
   i : Integer;
 begin
+  if Id = Nil then raise EInvalidArgument.Create('Id cannot be Nil!');
+  Result:=-1;
   for i:=1 to BOXES do
     if Cards[i].Contains(Id) then
     begin
