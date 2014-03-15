@@ -17,6 +17,9 @@ type
   published
     procedure Contains;
     procedure NotContains;
+    procedure Get;
+    procedure GetNotExistant;
+    procedure GetNil;
   end;
 
 implementation
@@ -56,6 +59,53 @@ begin
   AssertFalse(List.Contains(Id));
 
   Id.Free;
+  List.Free;
+end;
+
+procedure TExObjectListTest.Get;
+var
+  List : TExObjectList;
+  Id : TId;
+  Id2 : TId;
+begin
+  List:=CreateList;
+  Id:=TId.CreateFromString('test');
+
+  Id2:=List.Get(Id) as TId;
+
+  AssertFalse(Id = Id2);
+
+  List.Free;
+  Id.Free;
+end;
+
+procedure TExObjectListTest.GetNotExistant;
+var
+  List : TExObjectList;
+  Id : TId;
+begin
+  List:=CreateList;
+  Id:=TId.CreateFromString('nic');
+
+  AssertNull(List.Get(Id));
+
+  List.Free;
+  Id.Free;
+end;
+
+procedure TExObjectListTest.GetNil;
+var
+  List : TExObjectList;
+begin
+  List:=CreateList;
+
+  try
+    List.Get(Nil);
+    Fail('EInvalidArgument should be thrown, got result instead');
+  except
+    on EInvalidArgument do;
+  end;
+
   List.Free;
 end;
 

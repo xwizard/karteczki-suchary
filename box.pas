@@ -20,8 +20,9 @@ type
     procedure AddToBox(BoxNumber : Integer; CardId : TId);
     function Contains(BoxNumber : Integer; CardId : TId) : Boolean;
   private
-    Id : TGuid;
+    FId : TId;
     Cards : TCardArray;
+    function GetBoxHolding(Id : TId) : Integer;
   end;
 
 implementation
@@ -46,19 +47,35 @@ begin
 end;
 
 procedure TBox.MoveCardToFirst(CardId : TId);
+var
+  BoxHolding : Integer;
 begin
-
+  BoxHolding:=GetBoxHolding(CardId);
+  //Cards[BoxHolding].
 end;
 
 procedure TBox.AddToBox(BoxNumber : Integer; CardId : TId);
 begin
      Cards[BoxNumber].Add(CardId);
 end;
+
 function TBox.Contains(BoxNumber : Integer; CardId : TId) : Boolean;
 var
   i : Integer;
 begin
   Result := Cards[BoxNumber].Contains(CardId);
+end;
+
+function TBox.GetBoxHolding(Id : TId) : Integer;
+var
+  i : Integer;
+begin
+  for i:=1 to BOXES do
+    if Cards[i].Contains(Id) then
+    begin
+      Result:=i;
+      Break;
+    end;
 end;
 
 end.

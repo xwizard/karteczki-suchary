@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <ProjectOptions>
     <Version Value="9"/>
@@ -41,7 +41,7 @@
         <PackageName Value="FCL"/>
       </Item3>
     </RequiredPackages>
-    <Units Count="10">
+    <Units Count="11">
       <Unit0>
         <Filename Value="test.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -92,6 +92,11 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="ExListTest"/>
       </Unit9>
+      <Unit10>
+        <Filename Value="exceptions.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Exceptions"/>
+      </Unit10>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
