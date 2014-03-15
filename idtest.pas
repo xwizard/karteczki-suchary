@@ -5,7 +5,7 @@ unit IdTest;
 interface
 
 uses
-  Classes, SysUtils, fpcunit, testutils, testregistry, Model;
+  Classes, SysUtils, fpcunit, testutils, testregistry, Id;
 
 type
 

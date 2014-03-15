@@ -5,7 +5,8 @@ unit ExListTest;
 interface
 
 uses
-  Classes, SysUtils, fpcunit, testutils, testregistry, ExList, Model;
+  Classes, SysUtils, fpcunit, testutils, testregistry,
+  ExList, Id, Exceptions;
 
 type
 

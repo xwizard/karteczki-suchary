@@ -11,7 +11,7 @@
         <UnitName Value="test"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
-        <CursorPos X="1" Y="16"/>
+        <CursorPos X="40" Y="7"/>
         <UsageCount Value="200"/>
       </Unit0>
       <Unit1>
@@ -28,19 +28,20 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="Model"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="50" Y="16"/>
-        <UsageCount Value="65"/>
+        <TopLine Value="4"/>
+        <CursorPos X="3" Y="14"/>
+        <UsageCount Value="67"/>
       </Unit2>
       <Unit3>
         <Filename Value="box.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Box"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="0"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="64"/>
-        <CursorPos X="12" Y="76"/>
-        <UsageCount Value="65"/>
+        <TopLine Value="48"/>
+        <CursorPos X="54" Y="59"/>
+        <UsageCount Value="67"/>
         <Loaded Value="True"/>
       </Unit3>
       <Unit4>
@@ -50,7 +51,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="13" Y="1"/>
-        <UsageCount Value="64"/>
+        <UsageCount Value="66"/>
       </Unit4>
       <Unit5>
         <Filename Value="modeltestcases.pas"/>
@@ -58,49 +59,44 @@
         <UnitName Value="ModelTestCases"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
-        <CursorPos X="19" Y="9"/>
-        <UsageCount Value="64"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="66"/>
       </Unit5>
       <Unit6>
         <Filename Value="id.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Id"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="15"/>
-        <CursorPos X="46" Y="29"/>
-        <UsageCount Value="51"/>
+        <TopLine Value="37"/>
+        <CursorPos X="3" Y="11"/>
+        <UsageCount Value="53"/>
       </Unit6>
       <Unit7>
         <Filename Value="idtest.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="IdTest"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="6"/>
-        <CursorPos X="48" Y="8"/>
-        <UsageCount Value="50"/>
+        <TopLine Value="1"/>
+        <CursorPos X="24" Y="5"/>
+        <UsageCount Value="52"/>
       </Unit7>
       <Unit8>
         <Filename Value="exlist.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="ExList"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="2"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="38"/>
-        <CursorPos X="73" Y="41"/>
-        <UsageCount Value="29"/>
-        <Loaded Value="True"/>
+        <TopLine Value="39"/>
+        <CursorPos X="66" Y="43"/>
+        <UsageCount Value="31"/>
       </Unit8>
       <Unit9>
         <Filename Value="exlisttest.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="ExListTest"/>
-        <EditorIndex Value="3"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="99"/>
-        <CursorPos X="8" Y="106"/>
-        <UsageCount Value="29"/>
-        <Loaded Value="True"/>
+        <TopLine Value="1"/>
+        <CursorPos X="25" Y="9"/>
+        <UsageCount Value="31"/>
       </Unit9>
       <Unit10>
         <Filename Value="quiz.pas"/>
@@ -108,7 +104,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="27" Y="1"/>
-        <UsageCount Value="98"/>
+        <UsageCount Value="97"/>
       </Unit10>
       <Unit11>
         <Filename Value="modeltestcase.pas"/>
@@ -147,8 +143,8 @@
         <UnitName Value="BoxTest"/>
         <EditorIndex Value="1"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="54"/>
-        <CursorPos X="7" Y="56"/>
+        <TopLine Value="20"/>
+        <CursorPos X="10" Y="9"/>
         <UsageCount Value="32"/>
         <Loaded Value="True"/>
       </Unit15>
@@ -173,7 +169,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="25"/>
         <CursorPos X="64" Y="33"/>
-        <UsageCount Value="21"/>
+        <UsageCount Value="20"/>
       </Unit18>
       <Unit19>
         <Filename Value="exceptions.pas"/>
@@ -181,131 +177,146 @@
         <UnitName Value="Exceptions"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
-        <CursorPos X="19" Y="11"/>
-        <UsageCount Value="20"/>
+        <CursorPos X="36" Y="12"/>
+        <UsageCount Value="22"/>
       </Unit19>
     </Units>
     <General>
       <ActiveWindowIndexAtStart Value="0"/>
     </General>
-    <JumpHistory Count="29" HistoryIndex="28">
+    <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
-        <Filename Value="box.pas"/>
-        <Caret Line="57" Column="18" TopLine="47"/>
+        <Filename Value="boxtest.pas"/>
+        <Caret Line="61" Column="36" TopLine="47"/>
       </Position1>
       <Position2>
         <Filename Value="box.pas"/>
-        <Caret Line="61" Column="38" TopLine="47"/>
+        <Caret Line="69" Column="7" TopLine="47"/>
       </Position2>
       <Position3>
         <Filename Value="box.pas"/>
-        <Caret Line="35" Column="30" TopLine="26"/>
+        <Caret Line="58" Column="1" TopLine="53"/>
       </Position3>
       <Position4>
-        <Filename Value="boxtest.pas"/>
-        <Caret Line="29" Column="33" TopLine="14"/>
+        <Filename Value="box.pas"/>
+        <Caret Line="59" Column="1" TopLine="50"/>
       </Position4>
       <Position5>
-        <Filename Value="boxtest.pas"/>
-        <Caret Line="26" Column="15" TopLine="14"/>
+        <Filename Value="box.pas"/>
+        <Caret Line="66" Column="1" TopLine="57"/>
       </Position5>
       <Position6>
-        <Filename Value="boxtest.pas"/>
-        <Caret Line="38" Column="22" TopLine="23"/>
+        <Filename Value="box.pas"/>
+        <Caret Line="54" Column="23" TopLine="40"/>
       </Position6>
       <Position7>
-        <Filename Value="boxtest.pas"/>
-        <Caret Line="31" Column="68" TopLine="22"/>
+        <Filename Value="box.pas"/>
+        <Caret Line="25" Column="35" TopLine="17"/>
       </Position7>
       <Position8>
-        <Filename Value="boxtest.pas"/>
-        <Caret Line="30" Column="10" TopLine="21"/>
+        <Filename Value="box.pas"/>
+        <Caret Line="53" Column="35" TopLine="44"/>
       </Position8>
       <Position9>
-        <Filename Value="boxtest.pas"/>
-        <Caret Line="31" Column="55" TopLine="30"/>
+        <Filename Value="box.pas"/>
+        <Caret Line="74" Column="26" TopLine="64"/>
       </Position9>
       <Position10>
-        <Filename Value="boxtest.pas"/>
-        <Caret Line="61" Column="36" TopLine="47"/>
+        <Filename Value="box.pas"/>
+        <Caret Line="76" Column="12" TopLine="64"/>
       </Position10>
       <Position11>
         <Filename Value="box.pas"/>
-        <Caret Line="69" Column="7" TopLine="47"/>
+        <Caret Line="57" Column="24" TopLine="51"/>
       </Position11>
       <Position12>
-        <Filename Value="exlist.pas"/>
-        <Caret Line="13" Column="16" TopLine="4"/>
+        <Filename Value="box.pas"/>
+        <Caret Line="55" Column="41" TopLine="45"/>
       </Position12>
       <Position13>
         <Filename Value="box.pas"/>
-        <Caret Line="58" Column="1" TopLine="53"/>
+        <Caret Line="52" Column="18" TopLine="46"/>
       </Position13>
       <Position14>
         <Filename Value="box.pas"/>
-        <Caret Line="59" Column="1" TopLine="50"/>
+        <Caret Line="8" Column="27" TopLine="27"/>
       </Position14>
       <Position15>
         <Filename Value="box.pas"/>
-        <Caret Line="66" Column="1" TopLine="57"/>
+        <Caret Line="57" Column="56" TopLine="40"/>
       </Position15>
       <Position16>
-        <Filename Value="exlisttest.pas"/>
-        <Caret Line="59" Column="13" TopLine="17"/>
+        <Filename Value="box.pas"/>
+        <Caret Line="59" Column="28" TopLine="44"/>
       </Position16>
       <Position17>
         <Filename Value="box.pas"/>
-        <Caret Line="54" Column="23" TopLine="40"/>
+        <Caret Line="8" Column="27" TopLine="1"/>
       </Position17>
       <Position18>
         <Filename Value="box.pas"/>
-        <Caret Line="25" Column="35" TopLine="17"/>
+        <Caret Line="9" Column="3" TopLine="1"/>
       </Position18>
       <Position19>
         <Filename Value="box.pas"/>
-        <Caret Line="53" Column="35" TopLine="44"/>
+        <Caret Line="58" Column="108" TopLine="49"/>
       </Position19>
       <Position20>
-        <Filename Value="box.pas"/>
-        <Caret Line="74" Column="26" TopLine="64"/>
+        <Filename Value="boxtest.pas"/>
+        <Caret Line="56" Column="7" TopLine="54"/>
       </Position20>
       <Position21>
-        <Filename Value="exlisttest.pas"/>
-        <Caret Line="73" Column="18" TopLine="62"/>
+        <Filename Value="box.pas"/>
+        <Caret Line="58" Column="107" TopLine="45"/>
       </Position21>
       <Position22>
-        <Filename Value="exlisttest.pas"/>
-        <Caret Line="70" Column="9" TopLine="61"/>
+        <Filename Value="box.pas"/>
+        <Caret Line="56" Column="1" TopLine="52"/>
       </Position22>
       <Position23>
-        <Filename Value="exlisttest.pas"/>
-        <Caret Line="66" Column="23" TopLine="61"/>
+        <Filename Value="box.pas"/>
+        <Caret Line="79" Column="1" TopLine="69"/>
       </Position23>
       <Position24>
-        <Filename Value="exlisttest.pas"/>
-        <Caret Line="73" Column="20" TopLine="64"/>
+        <Filename Value="box.pas"/>
+        <Caret Line="80" Column="19" TopLine="69"/>
       </Position24>
       <Position25>
-        <Filename Value="exlist.pas"/>
-        <Caret Line="40" Column="19" TopLine="23"/>
+        <Filename Value="box.pas"/>
+        <Caret Line="82" Column="1" TopLine="69"/>
       </Position25>
       <Position26>
-        <Filename Value="exlisttest.pas"/>
-        <Caret Line="77" Column="39" TopLine="72"/>
+        <Filename Value="box.pas"/>
+        <Caret Line="83" Column="1" TopLine="69"/>
       </Position26>
       <Position27>
-        <Filename Value="exlisttest.pas"/>
-        <Caret Line="81" Column="42" TopLine="63"/>
+        <Filename Value="box.pas"/>
+        <Caret Line="85" Column="1" TopLine="69"/>
       </Position27>
       <Position28>
-        <Filename Value="exlisttest.pas"/>
-        <Caret Line="8" Column="69" TopLine="1"/>
+        <Filename Value="box.pas"/>
+        <Caret Line="57" Column="1" TopLine="48"/>
       </Position28>
       <Position29>
-        <Filename Value="exlisttest.pas"/>
-        <Caret Line="106" Column="8" TopLine="2"/>
+        <Filename Value="box.pas"/>
+        <Caret Line="58" Column="1" TopLine="48"/>
       </Position29>
+      <Position30>
+        <Filename Value="box.pas"/>
+        <Caret Line="59" Column="1" TopLine="48"/>
+      </Position30>
     </JumpHistory>
   </ProjectSession>
+  <Debugging>
+    <BreakPoints Count="1">
+      <Item1>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="box.pas"/>
+        <Line Value="56"/>
+      </Item1>
+    </BreakPoints>
+  </Debugging>
   <EditorMacros Count="0"/>
 </CONFIG>

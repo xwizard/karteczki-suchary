@@ -5,7 +5,8 @@ unit Box;
 interface
 
 uses
-  Classes, SysUtils, Id, ExList;
+  Classes, SysUtils,
+  Id, Exceptions, ExList;
 
 const
   BOXES : Integer = 5;
@@ -16,7 +17,7 @@ type
   public
     constructor Create;
     destructor Destroy;
-    procedure MoveCardToFirst(CardId : TId);
+    procedure MoveCardToFirst(const CardId : TId);
     procedure AddToBox(BoxNumber : Integer; CardId : TId);
     function Contains(BoxNumber : Integer; CardId : TId) : Boolean;
   private
@@ -46,12 +47,17 @@ begin
     Cards[i].Free;
 end;
 
-procedure TBox.MoveCardToFirst(CardId : TId);
+procedure TBox.MoveCardToFirst(const CardId : TId);
 var
   BoxHolding : Integer;
+  IdOnList : TId;
+  AObject : TObject;
 begin
   BoxHolding:=GetBoxHolding(CardId);
-  //Cards[BoxHolding].
+  AObject:=Cards[BoxHolding].Get(CardId);
+  if AObject = Nil then raise EInvalidState('Card with id ' + CardId.ToString + ' doesn''t exist in box!');
+  IdOnList:=Cards[BoxHolding].Extract(AObject as TId) as TId;
+  Cards[1].Add(IdOnList);
 end;
 
 procedure TBox.AddToBox(BoxNumber : Integer; CardId : TId);

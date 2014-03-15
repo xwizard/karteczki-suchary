@@ -9,6 +9,7 @@ uses
 
 type
   EInvalidArgument = class(Exception);
+  EInvalidState = class(Exception);
 
 implementation
 
