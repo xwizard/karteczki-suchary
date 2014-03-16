@@ -22,6 +22,7 @@ type
     procedure MoveToNext;
     procedure MoveNilToNext;
     procedure MoveNonexistingCardToNext;
+    procedure MoveFromLast;
   end;
 
 implementation
@@ -150,6 +151,20 @@ begin
 
   Id.Free;
   Box.Free;
+end;
+
+procedure TBoxTest.MoveFromLast;
+var
+  Box : TBox;
+  Id : TId;
+begin
+  Box:=CreateStubBox;
+  Id:=TId.CreateFromString('5');
+
+  Box.MoveCardToNext(Id);
+
+  Box.Free;
+  Id.Free;
 end;
 
 initialization
