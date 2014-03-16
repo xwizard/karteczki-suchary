@@ -19,6 +19,9 @@ type
     procedure MoveCardFromSecondToFirst;
     procedure MoveNonexistingCardToFirst;
     procedure MoveNilCardToFirst;
+    procedure MoveToNext;
+    procedure MoveNilToNext;
+    procedure MoveNonexistingCardToNext;
   end;
 
 implementation
@@ -94,6 +97,59 @@ begin
     Fail('Test should throw EInvalidArgument!');
   except on EInvalidArgument do;
   end;
+
+  Box.Free;
+end;
+
+procedure TBoxTest.MoveToNext;
+var
+  Box : TBox;
+  Id : TId;
+begin
+  Box:=CreateStubBox;
+  Id:=TId.CreateFromString('2');
+
+  Box.MoveCardToNext(Id);
+
+  AssertFalse(Box.Contains(1, Id));
+  AssertFalse(Box.Contains(2, Id));
+  AssertTrue(Box.Contains(3, Id));
+
+  Box.Free;
+  Id.Free;
+end;
+
+procedure TBoxTest.MoveNilToNext;
+var
+  Box :TBox;
+begin
+  Box:=CreateStubBox;
+
+  try
+    Box.MoveCardToNext(Nil);
+    Fail('Shoud throw EInvalidArgument');
+  except on EInvalidArgument do;
+  end;
+
+  Box.Free;
+end;
+
+procedure TBoxTest.MoveNonexistingCardToNext;
+var
+  Box : TBox;
+  Id : TId;
+begin
+  Box:=CreateStubBox;
+  Id:=TId.CreateFromString('dupa');
+
+  try
+     Box.MoveCardToNext(Id);
+     Fail('Should raise EInvalidState');
+  except on EInvalidState do;
+  end;
+
+  Id.Free;
+  Box.Free;
 end;
 
 initialization

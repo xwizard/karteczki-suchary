@@ -13,17 +13,24 @@ const
 
 type
   TCardArray = Array[1..5] of TExObjectList;
+
+  { TBox }
+
   TBox = class(TObject)
   public
     constructor Create;
     destructor Destroy;
-    procedure MoveCardToFirst(const CardId : TId);
+    procedure MoveCardToFirst(CardId : TId);
+    procedure MoveCardToNext (CardId : TId);
     procedure AddToBox(BoxNumber : Integer; CardId : TId);
     function Contains(BoxNumber : Integer; CardId : TId) : Boolean;
   private
     FId : TId;
     Cards : TCardArray;
+    procedure CheckCardExistence(var BoxHolding: Integer; var CardId: TId);
     function GetBoxHolding(Id : TId) : Integer;
+    function ExtractCard(const BoxHolding: Integer;
+      const CardId: TId) : TId;
   end;
 
 implementation
@@ -47,18 +54,37 @@ begin
     Cards[i].Free;
 end;
 
-procedure TBox.MoveCardToFirst(const CardId : TId);
+function TBox.ExtractCard(const BoxHolding: Integer;
+  const CardId: TId) : TId;
+var
+  AObject: TObject;
+begin
+  AObject:=Cards[BoxHolding].Get(CardId);
+  if AObject = nil then raise EInvalidState('Card with id ' + CardId.ToString + ' '
+    +'doesn''t exist in box!');
+  Result:=Cards[BoxHolding].Extract(AObject as TId) as TId;
+end;
+
+procedure TBox.MoveCardToFirst(CardId : TId);
 var
   BoxHolding : Integer;
   IdOnList : TId;
-  AObject : TObject;
 begin
   BoxHolding:=GetBoxHolding(CardId);
-  if BoxHolding < 1 then raise EInvalidState.Create('No box is holding card ' + CardId.ToString);
-  AObject:=Cards[BoxHolding].Get(CardId);
-  if AObject = Nil then raise EInvalidState('Card with id ' + CardId.ToString + ' doesn''t exist in box!');
-  IdOnList:=Cards[BoxHolding].Extract(AObject as TId) as TId;
+  CheckCardExistence(BoxHolding, CardId);
+  IdOnList:=ExtractCard(BoxHolding, CardId);
   Cards[1].Add(IdOnList);
+end;
+
+procedure TBox.MoveCardToNext(CardId : TId);
+var
+  BoxHolding : Integer;
+  IdOnList : TId;
+begin
+  BoxHolding:=GetBoxHolding(CardId);
+  CheckCardExistence(BoxHolding, CardId);
+  IdOnList:=ExtractCard(BoxHolding, CardId);
+  Cards[BoxHolding+1].Add(IdOnList);
 end;
 
 procedure TBox.AddToBox(BoxNumber : Integer; CardId : TId);
@@ -85,6 +111,12 @@ begin
       Result:=i;
       Break;
     end;
+end;
+
+procedure TBox.CheckCardExistence(var BoxHolding: Integer; var CardId: TId);
+begin
+  if BoxHolding < 1 then raise EInvalidState.Create('No box is holding card ' +
+    CardId.ToString);
 end;
 
 end.
