@@ -41,7 +41,7 @@
         <PackageName Value="FCL"/>
       </Item3>
     </RequiredPackages>
-    <Units Count="11">
+    <Units Count="12">
       <Unit0>
         <Filename Value="test.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -97,6 +97,11 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="Exceptions"/>
       </Unit10>
+      <Unit11>
+        <Filename Value="domainevent.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="DomainEvent"/>
+      </Unit11>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
