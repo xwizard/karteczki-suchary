@@ -110,7 +110,7 @@ begin
   Box:=CreateStubBox;
   Id:=TId.CreateFromString('2');
 
-  Box.MoveCardToNext(Id);
+  Box.AdvanceCard(Id);
 
   AssertFalse(Box.Contains(1, Id));
   AssertFalse(Box.Contains(2, Id));
@@ -127,7 +127,7 @@ begin
   Box:=CreateStubBox;
 
   try
-    Box.MoveCardToNext(Nil);
+    Box.AdvanceCard(Nil);
     Fail('Shoud throw EInvalidArgument');
   except on EInvalidArgument do;
   end;
@@ -144,7 +144,7 @@ begin
   Id:=TId.CreateFromString('dupa');
 
   try
-     Box.MoveCardToNext(Id);
+     Box.AdvanceCard(Id);
      Fail('Should raise EInvalidState');
   except on EInvalidState do;
   end;
@@ -161,7 +161,7 @@ begin
   Box:=CreateStubBox;
   Id:=TId.CreateFromString('5');
 
-  Box.MoveCardToNext(Id);
+  Box.AdvanceCard(Id);
 
   Box.Free;
   Id.Free;

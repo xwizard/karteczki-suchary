@@ -21,7 +21,7 @@ type
     constructor Create;
     destructor Destroy;
     procedure MoveCardToFirst(CardId : TId);
-    procedure MoveCardToNext (CardId : TId);
+    procedure AdvanceCard (CardId : TId);
     procedure AddToBox(BoxNumber : Integer; CardId : TId);
     function Contains(BoxNumber : Integer; CardId : TId) : Boolean;
   private
@@ -76,7 +76,7 @@ begin
   Cards[1].Add(IdOnList);
 end;
 
-procedure TBox.MoveCardToNext(CardId : TId);
+procedure TBox.AdvanceCard(CardId : TId);
 var
   BoxHolding : Integer;
   IdOnList : TId;
