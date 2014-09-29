@@ -19,9 +19,9 @@ type
     procedure MoveCardFromSecondToFirst;
     procedure MoveNonexistingCardToFirst;
     procedure MoveNilCardToFirst;
-    procedure MoveToNext;
-    procedure MoveNilToNext;
-    procedure MoveNonexistingCardToNext;
+    procedure Advance;
+    procedure AdvanceNil;
+    procedure AdvanceNonExisting;
     procedure MoveFromLast;
   end;
 
@@ -102,7 +102,7 @@ begin
   Box.Free;
 end;
 
-procedure TBoxTest.MoveToNext;
+procedure TBoxTest.Advance;
 var
   Box : TBox;
   Id : TId;
@@ -120,7 +120,7 @@ begin
   Id.Free;
 end;
 
-procedure TBoxTest.MoveNilToNext;
+procedure TBoxTest.AdvanceNil;
 var
   Box :TBox;
 begin
@@ -135,7 +135,7 @@ begin
   Box.Free;
 end;
 
-procedure TBoxTest.MoveNonexistingCardToNext;
+procedure TBoxTest.AdvanceNonExisting;
 var
   Box : TBox;
   Id : TId;
