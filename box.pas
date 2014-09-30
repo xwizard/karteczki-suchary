@@ -84,7 +84,10 @@ begin
   BoxHolding:=GetBoxHolding(CardId);
   CheckCardExistence(BoxHolding, CardId);
   IdOnList:=ExtractCard(BoxHolding, CardId);
-  Cards[BoxHolding+1].Add(IdOnList);
+  if BoxHolding < 5 then
+    Cards[BoxHolding+1].Add(IdOnList)
+  else
+    IdOnList.Free;
 end;
 
 procedure TBox.AddToBox(BoxNumber : Integer; CardId : TId);

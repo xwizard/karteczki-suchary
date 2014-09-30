@@ -22,7 +22,7 @@ type
     procedure Advance;
     procedure AdvanceNil;
     procedure AdvanceNonExisting;
-    procedure MoveFromLast;
+    procedure AdvanceFromLast;
   end;
 
 implementation
@@ -153,7 +153,7 @@ begin
   Box.Free;
 end;
 
-procedure TBoxTest.MoveFromLast;
+procedure TBoxTest.AdvanceFromLast;
 var
   Box : TBox;
   Id : TId;
@@ -162,6 +162,8 @@ begin
   Id:=TId.CreateFromString('5');
 
   Box.AdvanceCard(Id);
+
+  AssertFalse(Box.Contains(5, Id));
 
   Box.Free;
   Id.Free;
