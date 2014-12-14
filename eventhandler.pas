@@ -8,7 +8,7 @@ uses
   Classes, SysUtils, DomainEvents;
 
 type
-  IEventhandler = interface
+  IEventHandler = interface
     procedure Handle(Event : TDomainEvent);
 	end;
 
