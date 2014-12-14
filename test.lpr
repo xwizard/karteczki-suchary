@@ -4,7 +4,7 @@ program test;
 
 uses
   Interfaces, Forms, GuiTestRunner, ExListTest,
-  Exceptions, BoxTest, IdTest, QuizTest, DomainEvents;
+  Exceptions, BoxTest, IdTest, QuizTest, DomainEvents, EventHandler;
 
 {$R *.res}
 

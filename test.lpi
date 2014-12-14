@@ -41,7 +41,7 @@
         <PackageName Value="FCL"/>
       </Item3>
     </RequiredPackages>
-    <Units Count="12">
+    <Units Count="13">
       <Unit0>
         <Filename Value="test.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -102,6 +102,11 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="DomainEvent"/>
       </Unit11>
+      <Unit12>
+        <Filename Value="eventhandler.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="EventHandler"/>
+      </Unit12>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
@@ -130,4 +135,4 @@
       </Item3>
     </Exceptions>
   </Debugging>
-</CONFIG>
+</CONFIG>
