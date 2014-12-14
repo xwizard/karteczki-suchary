@@ -4,7 +4,7 @@ program test;
 
 uses
   Interfaces, Forms, GuiTestRunner, ExListTest,
-  Exceptions, BoxTest, IdTest, QuizTest, DomainEvents, EventHandler;
+  Exceptions, BoxTest, IdTest, QuizTest, EventEmitterTest;
 
 {$R *.res}
 
@@ -14,4 +14,4 @@ begin
   Application.MainForm.Height := 450;
   Application.Run;
 end.
-
+

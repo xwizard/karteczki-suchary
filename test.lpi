@@ -41,7 +41,7 @@
         <PackageName Value="FCL"/>
       </Item3>
     </RequiredPackages>
-    <Units Count="13">
+    <Units Count="15">
       <Unit0>
         <Filename Value="test.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -107,6 +107,16 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="EventHandler"/>
       </Unit12>
+      <Unit13>
+        <Filename Value="eventemittertest.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="EventEmitterTest"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="eventemitter.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="EventEmitter"/>
+      </Unit14>
     </Units>
   </ProjectOptions>
   <CompilerOptions>

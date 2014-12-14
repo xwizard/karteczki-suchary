@@ -4,15 +4,17 @@
     <PathDelim Value="\"/>
     <Version Value="9"/>
     <BuildModes Active="Default"/>
-    <Units Count="23">
+    <Units Count="26">
       <Unit0>
         <Filename Value="test.lpr"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="test"/>
+        <EditorIndex Value="5"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
-        <CursorPos X="28" Y="13"/>
+        <CursorPos X="40" Y="7"/>
         <UsageCount Value="200"/>
+        <Loaded Value="True"/>
       </Unit0>
       <Unit1>
         <Filename Value="quiztestcase.pas"/>
@@ -30,17 +32,17 @@
         <WindowIndex Value="0"/>
         <TopLine Value="4"/>
         <CursorPos X="3" Y="14"/>
-        <UsageCount Value="110"/>
+        <UsageCount Value="111"/>
       </Unit2>
       <Unit3>
         <Filename Value="box.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Box"/>
-        <EditorIndex Value="2"/>
+        <EditorIndex Value="6"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
+        <TopLine Value="13"/>
         <CursorPos X="86" Y="118"/>
-        <UsageCount Value="110"/>
+        <UsageCount Value="111"/>
         <Loaded Value="True"/>
       </Unit3>
       <Unit4>
@@ -50,7 +52,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="13" Y="1"/>
-        <UsageCount Value="109"/>
+        <UsageCount Value="110"/>
       </Unit4>
       <Unit5>
         <Filename Value="modeltestcases.pas"/>
@@ -59,7 +61,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="1"/>
-        <UsageCount Value="109"/>
+        <UsageCount Value="110"/>
       </Unit5>
       <Unit6>
         <Filename Value="id.pas"/>
@@ -68,7 +70,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="37"/>
         <CursorPos X="3" Y="11"/>
-        <UsageCount Value="96"/>
+        <UsageCount Value="97"/>
       </Unit6>
       <Unit7>
         <Filename Value="idtest.pas"/>
@@ -77,16 +79,18 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="24" Y="5"/>
-        <UsageCount Value="95"/>
+        <UsageCount Value="96"/>
       </Unit7>
       <Unit8>
         <Filename Value="exlist.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="ExList"/>
+        <EditorIndex Value="4"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="4"/>
-        <CursorPos X="16" Y="14"/>
-        <UsageCount Value="74"/>
+        <TopLine Value="1"/>
+        <CursorPos X="13" Y="9"/>
+        <UsageCount Value="75"/>
+        <Loaded Value="True"/>
       </Unit8>
       <Unit9>
         <Filename Value="exlisttest.pas"/>
@@ -95,7 +99,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="25" Y="9"/>
-        <UsageCount Value="74"/>
+        <UsageCount Value="75"/>
       </Unit9>
       <Unit10>
         <Filename Value="exceptions.pas"/>
@@ -104,7 +108,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="36" Y="12"/>
-        <UsageCount Value="65"/>
+        <UsageCount Value="66"/>
       </Unit10>
       <Unit11>
         <Filename Value="domainevent.pas"/>
@@ -113,18 +117,17 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="18" Y="1"/>
-        <UsageCount Value="49"/>
+        <UsageCount Value="50"/>
       </Unit11>
       <Unit12>
         <Filename Value="eventhandler.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="EventHandler"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
-        <CursorPos X="43" Y="12"/>
-        <UsageCount Value="22"/>
+        <CursorPos X="44" Y="12"/>
+        <UsageCount Value="23"/>
         <Loaded Value="True"/>
       </Unit12>
       <Unit13>
@@ -205,14 +208,45 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="16" Y="16"/>
-        <UsageCount Value="25"/>
+        <UsageCount Value="26"/>
         <Loaded Value="True"/>
       </Unit22>
+      <Unit23>
+        <Filename Value="eventemittertest.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="EventEmitterTest"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="39" Y="16"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="eventemitter.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="EventEmitter"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="36" Y="15"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="..\..\..\..\Applications\lazarus\fpc-2.6.4\packages\fcl-base\src\contnrs.pp"/>
+        <UnitName Value="contnrs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+      </Unit25>
     </Units>
     <General>
       <ActiveWindowIndexAtStart Value="0"/>
     </General>
-    <JumpHistory Count="20" HistoryIndex="19">
+    <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
         <Filename Value="box.pas"/>
         <Caret Line="63" Column="1" TopLine="48"/>
@@ -293,6 +327,46 @@
         <Filename Value="eventhandler.pas"/>
         <Caret Line="8" Column="22" TopLine="1"/>
       </Position20>
+      <Position21>
+        <Filename Value="test.lpr"/>
+        <Caret Line="7" Column="62" TopLine="1"/>
+      </Position21>
+      <Position22>
+        <Filename Value="eventemittertest.pas"/>
+        <Caret Line="38" Column="34" TopLine="5"/>
+      </Position22>
+      <Position23>
+        <Filename Value="eventemittertest.pas"/>
+        <Caret Line="13" Column="24" TopLine="6"/>
+      </Position23>
+      <Position24>
+        <Filename Value="eventemitter.pas"/>
+        <Caret Line="13" Column="9" TopLine="1"/>
+      </Position24>
+      <Position25>
+        <Filename Value="exlist.pas"/>
+        <Caret Line="14" Column="16" TopLine="1"/>
+      </Position25>
+      <Position26>
+        <Filename Value="eventemitter.pas"/>
+        <Caret Line="12" Column="30" TopLine="1"/>
+      </Position26>
+      <Position27>
+        <Filename Value="eventemitter.pas"/>
+        <Caret Line="11" Column="32" TopLine="1"/>
+      </Position27>
+      <Position28>
+        <Filename Value="eventemitter.pas"/>
+        <Caret Line="13" Column="40" TopLine="1"/>
+      </Position28>
+      <Position29>
+        <Filename Value="eventemittertest.pas"/>
+        <Caret Line="19" Column="53" TopLine="1"/>
+      </Position29>
+      <Position30>
+        <Filename Value="eventemittertest.pas"/>
+        <Caret Line="8" Column="35" TopLine="1"/>
+      </Position30>
     </JumpHistory>
   </ProjectSession>
   <EditorMacros Count="0"/>
