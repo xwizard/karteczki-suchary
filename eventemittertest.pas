@@ -6,7 +6,7 @@ interface
 
 uses
       Classes, SysUtils, fpcunit, testutils, testregistry,
-      EventEmitter;
+      EventEmitter, EventHandler;
 
 type
 
