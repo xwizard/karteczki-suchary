@@ -8,8 +8,8 @@ uses
   Classes, SysUtils, DomainEvents;
 
 type
-  IEventHandler = interface
-    procedure Handle(Event : TDomainEvent);
+  generic IEventHandler<T> = interface
+    procedure Handle(Event : T);
 	end;
 
 implementation
