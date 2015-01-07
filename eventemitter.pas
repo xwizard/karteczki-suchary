@@ -5,7 +5,8 @@ unit EventEmitter;
 interface
 
 uses
-      Classes, SysUtils, ExList;
+      Classes, SysUtils,
+      ExList;
 
 type
   TEventEmitter = class(TObject)
