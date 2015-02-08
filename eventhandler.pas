@@ -5,11 +5,12 @@ unit EventHandler;
 interface
 
 uses
-  Classes, SysUtils, DomainEvents;
+  Classes, SysUtils,
+  DomainEvents;
 
 type
-  generic IEventHandler<T> = interface
-    procedure Handle(Event : T);
+  IEventHandler = interface
+    procedure Handle(Event : TDomainEvent);
 	end;
 
 implementation

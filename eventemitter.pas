@@ -9,25 +9,35 @@ uses
       ExList, EventHandler;
 
 type
-  generic TEventEmitter<T> = class(TObject)
-    type IEventHandlerOfT = specialize IEventHandler<T>;
+
+	{ TEventEmitter }
+
+  TEventEmitter = class(TObject)
     private
-      Handlers : TExObjectList; static;
+      class var Handlers : TExObjectList;
     public
-      function GetHandlers : TExObjectList; static;
-      procedure Register(EventHandler : IEventHandlerOfT); static;
+      class function GetHandlers : TExObjectList; static;
+      class procedure Register(EventHandler : IEventHandler); static;
+      class procedure FreeAllHandlers; static;
 	end;
 
 implementation
 
-function TEventEmitter.GetHandlers : TExObjectList;
+class function TEventEmitter.GetHandlers : TExObjectList;
 begin
   Result := Handlers;
 end;
 
-procedure TEventEmitter.Register(EventHandler : IEventHandlerOfT);
+class procedure TEventEmitter.Register(EventHandler : IEventHandler);
 begin
+      if Handlers = Nil then
+        Handlers := TExObjectList.Create;
+end;
 
+class procedure TEventEmitter.FreeAllHandlers;
+begin
+  if Handlers <> Nil then
+    Handlers.Clear;
 end;
 
 end.

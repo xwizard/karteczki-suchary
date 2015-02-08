@@ -9,15 +9,15 @@ uses
       EventHandler, DomainEvents;
 
 type
-  generic TStubHandler<T> = class(TInterfacedObject, specialize IEventHandler<T>)
+  TStubHandler = class(TInterfacedObject, IEventHandler)
     public
       Handled : Integer;
-      procedure Handle(Event : T);
+      procedure Handle(Event : TDomainEvent);
 	end;
 
 implementation
 
-procedure TStubHandler.Handle(Event : T);
+procedure TStubHandler.Handle(Event : TDomainEvent);
 begin
     Handled := Handled + 1;
 end;

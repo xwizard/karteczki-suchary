@@ -6,23 +6,29 @@ interface
 
 uses
       Classes, SysUtils, fpcunit, testutils, testregistry,
-      EventEmitter, EventHandler;
+      EventEmitter, StubEventHandler, DomainEvents;
 
 type
-
-      TEventEmittertest= class(TTestCase)
+	TEventEmittertest= class(TTestCase)
       protected
             procedure SetUp; override;
             procedure TearDown; override;
       published
-            procedure TestHookUp;
+            procedure AddedHandlerShouldRemain;
       end;
 
 implementation
 
-procedure TEventEmitterTest.TestHookUp;
+procedure TEventEmitterTest.AddedHandlerShouldRemain;
+var
+  Handler : TStubHandler;
+  Event : TDomainEvent;
 begin
-      Fail('Write your own test');
+     Handler := TStubHandler.Create;
+     Event := TDomainEvent.Create;
+     TEventEmitter.Register(Handler);
+     //TEventEmitter.FreeAllHandlers;
+     Handler.Free;
 end;
 
 procedure TEventEmitterTest.SetUp;
